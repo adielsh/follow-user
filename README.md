@@ -1,11 +1,10 @@
 # follow-user
+server-client system for users following
 
-
-One Paragraph of project description goes here
-
-run the db.sql
 
 ### Installing
+
+run the db.sql
 cd server
 yarn && node server.js
 
