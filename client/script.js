@@ -65,9 +65,6 @@ function followBtnMouseover  (id, el) {
         el.innerHTML = "Unfollow";
         el.style.backgroundColor = "red";
     }
-    // else{
-    //     el.innerHTML = "let's follow";
-    // }
 };
 
 //Fired when button leaved, in order to change button style.
@@ -159,9 +156,6 @@ function drawTable() {
                 button.setAttribute('onclick', 'followBtnClicked(id,this)');
                 button.setAttribute('onMouseOver', 'followBtnMouseover(id,this)');
                 button.setAttribute('onMouseOut', 'followBtnMouseleave(id,this)');
-                // if (obj.id == localStorage.getItem("user_id")) {
-                //     button.setAttribute('disabled', true);
-                // }
                 let span = document.createElement('span');
                 span.setAttribute('class', 'etmkug-16 ctwFJG');
                 console.log()
