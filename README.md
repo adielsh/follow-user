@@ -1,4 +1,4 @@
-# follow-user
+# Follow-user
 Server-client system for users following.
 Server - express&mySql.
 Client - pure ES6.
