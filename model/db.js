@@ -1,5 +1,4 @@
 'user strict';
-
 var mysql = require('mysql');
 
 //local mysql db connection
