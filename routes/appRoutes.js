@@ -1,4 +1,5 @@
 'use strict';
+
 module.exports = function (app) {
     var user = require('../controller/userController');
     var follow = require('../controller/followController');
