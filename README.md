@@ -13,7 +13,7 @@ yarn && node server.js
 cd ../client
 Open index.html
 
-Enjoy!
+Enjoy!!
 
 ## Running the tests
 
