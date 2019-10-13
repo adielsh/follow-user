@@ -5,7 +5,6 @@ var Follow = require('../model/followModel.js');
 
 exports.create_follow = function(req, res) {
     var new_follow = new Follow(req.body);
-    console.log(new_follow)
     //handles null error
     if(!new_follow.user_id || !new_follow.follow_id){
         console.log(req.body)
